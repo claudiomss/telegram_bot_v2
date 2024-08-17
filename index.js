@@ -30,14 +30,14 @@ app.use(bodyParser.json())
 const token = process.env.TOKEN
 
 //Teste
-const urlapi = process.env.URLTESTE
-const ci = process.env.CITESTE
-const cs = process.env.CSTESTE
+// const urlapi = process.env.URLTESTE
+// const ci = process.env.CITESTE
+// const cs = process.env.CSTESTE
 
 // //Producao
-// const urlapi = process.env.URLAPI
-// const ci = process.env.CIAPI
-// const cs = process.env.CSAPI
+const urlapi = process.env.URLAPI
+const ci = process.env.CIAPI
+const cs = process.env.CSAPI
 
 // Configurar Supabase
 const supabaseUrl = process.env.SUPABASEURL
@@ -77,7 +77,7 @@ async function gerarPay(chatId, userName) {
       requestNumber: generateUniqueId(),
       dueDate: gerarData(),
       amount: 1.0,
-      callbackUrl: "http://localhost:3000/webhook-pay",
+      callbackUrl: "http://77.37.69.161:3000/webhook-pay",
       client: {
         name: userName,
         document: generateCPF(),
@@ -94,7 +94,7 @@ async function gerarPay(chatId, userName) {
         bot.sendMessage(chatId, chavePix)
         bot.sendMessage(
           chatId,
-          "Na área pix em 'PIX COPIA E COLA', cole esse código de pagamento! \n\nDepois de efetuar o pagamento, iremos liberamos o seu acesso ao grupo. Por favor, não exclua esse chat até receber o acesso."
+          "Na área pix em 'PIX COPIA E COLA', cole esse código de pagamento! \n\n*Aviso: o código pix é todo o conteúdo acima (texto azul e o texto em branco), \n\nSelecione a convesa e copie \n\nDepois de efetuar o pagamento, iremos liberamos o seu acesso ao grupo. Por favor, não exclua esse chat até receber o acesso."
         )
       })
 
