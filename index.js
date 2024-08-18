@@ -370,7 +370,10 @@ app.post("/webhook-pay", async (req, res) => {
 
     if (statusTransaction == "PAID_OUT") {
       // console.log("sim")
-      bot.sendMessage(userID, "Seu Pagamento foi realizado com sucesso!")
+      bot.sendMessage(
+        userID,
+        "Seu Pagamento foi realizado com sucesso! \n\nJá vou te enviar o link do grupo!"
+      )
 
       await supabase
         .from("Users")
