@@ -76,7 +76,7 @@ async function gerarPay(chatId, userName) {
       userID: chatId,
       requestNumber: generateUniqueId(),
       dueDate: gerarData(),
-      amount: 1.0,
+      amount: 29.0,
       callbackUrl: "http://77.37.69.161:3000/webhook-pay",
       client: {
         name: userName,

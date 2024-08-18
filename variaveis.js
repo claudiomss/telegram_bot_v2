@@ -120,7 +120,7 @@ const MESSAGES = {
   TEXT_13:
     "🌟 Acesse as melhores bucetinhas famosas! \n\n✔️ Sem mensalidade, apenas um pagamento único. \n\n💥 Clique no botão abaixo agora e veja o desconto! 🌟",
   TEXT_14:
-    "🚀 SUPER DESCONTO LIBERADO! ❗️\n\n🔒 Vitalício: De R$ 97 por APENAS R$ 27 🤑 \n\n⚠️ Só 19 vagas nesse valor! \n\n🎯 Clique para gerar o código de pagamento via PIX 👇",
+    "🚀 SUPER DESCONTO LIBERADO! ❗️\n\n🔒 Vitalício: De R$ 97 por APENAS R$ 29 🤑 \n\n⚠️ Só 19 vagas nesse valor! \n\n🎯 Clique para gerar o código de pagamento via PIX 👇",
   TEXT_15:
     "Anny Alves é GOSTOSA demais! 🌶️ \n\nNo nosso grupo, veja vídeos completos dela transando. \n\nVeja mais algumas famosas. 👇",
   TEXT_16:
